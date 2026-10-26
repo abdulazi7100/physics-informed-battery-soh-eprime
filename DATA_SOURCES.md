@@ -2,16 +2,26 @@
 
 Raw and processed battery observations are not included in this repository.
 
-## TJU NMC/NCA ageing data
+## Derived TJU feature tables
 
-- Dataset: *Data-driven capacity estimation of commercial lithium-ion batteries
-  from voltage relaxation*
-- Repository: https://doi.org/10.5281/zenodo.6405084
-- Required local model inputs:
-  `Kode_python/NCA_Integral_XGBoost_38.csv` and
-  `Kode_python/NMC_Integral_XGBoost.csv`
-- These feature tables are not included. They must be reconstructed from the
-  source data using the indicator definitions reported in the paper.
+The following processed modelling inputs are included:
+
+- `Kode_python/NCA_Integral_XGBoost_38.csv`
+- `Kode_python/NMC_Integral_XGBoost.csv`
+
+These tables were derived from the publicly available TJU NMC/NCA
+battery ageing dataset:
+
+J. Zhu et al., Data-driven capacity estimation of commercial
+lithium-ion batteries from voltage relaxation,
+https://doi.org/10.5281/zenodo.6405084.
+
+The original dataset is distributed under the Creative Commons
+Attribution 4.0 International licence. The included tables are not
+original raw measurements. They contain health indicators extracted
+and transformed according to the methods described in the associated
+article. Changes include feature extraction, cycle-level aggregation,
+SOH construction, and preparation for machine-learning analysis.
 
 ## Wenzhou Pack Degradation Data
 
