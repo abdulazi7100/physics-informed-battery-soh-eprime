@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated E-Prime article."
+title: "Reproducibility code for physics-informed uncertainty-aware cross-cell SOH estimation"
+type: software
+version: 1.0.0
+date-released: 2026-10-26
+authors:
+  - family-names: Abdillah
+    given-names: Abdul Azis
+  - family-names: Li
+    given-names: Ji
+  - family-names: Zhou
+    given-names: Quan
+  - family-names: Xu
+    given-names: Hongming
+preferred-citation:
+  type: article
+  title: "Physics-Informed Uncertainty-Aware Learning for Cross-Cell State-of-Health Estimation of Lithium-Ion Batteries"
+  authors:
+    - family-names: Abdillah
+      given-names: Abdul Azis
+    - family-names: Li
+      given-names: Ji
+    - family-names: Zhou
+      given-names: Quan
+    - family-names: Xu
+      given-names: Hongming
+  journal: E-Prime - Advances in Electrical Engineering, Electronics and Energy
+  year: 2026
